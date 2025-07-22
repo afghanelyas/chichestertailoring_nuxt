@@ -1,1 +1,133 @@
 @import "tailwindcss";
+@theme {
+  --font-montserrat: "Montserrat", sans-serif;
+}
+
+.text-blue {
+  color: #00518f;
+}
+
+.bg-app-blue {
+  background-color: #00518f;
+}
+
+.border-app-blue {
+  color: #00518f;
+}
+
+.text-black {
+  color: #282828;
+}
+.bg-app-customer {
+  background-color: #dee2e6;
+}
+
+.text-customer {
+  color: #454545;
+}
+
+/* .app-header {
+  background-image: url("./../asset/header-bg.webp");
+} */
+
+.app-main {
+  background-image: url("../images/main.webp");
+}
+
+/* .app-alteration {
+  background-image: url("./../asset/altreation-bg-5.webp");
+} */
+/* .app-dry {
+  background-image: url("./../asset/dry1.webp");
+} */
+
+/* .app-about {
+  background-image: url("./../asset/about1.webp");
+} */
+/* .app-pricing {
+  background-image: url("./../asset/pricing.webp");
+} */
+/* .app-dryCleaning {
+  background-image: url("./../asset/dryCleaning.webp");
+} */
+
+/* .app-contact {
+  background-image: url("./../asset/contact.webp");
+} */
+/* .app-estimator {
+  background-image: url("./../asset/ai.webp");
+} */
+@media (max-width: 1023px) {
+  /* .app-header {
+    background-size: cover;
+    background-position: center;
+  } */
+
+  .app-main {
+    background-size: cover;
+    background-position: center;
+  }
+  /* .app-alteration {
+    background-size: cover;
+    background-position: center;
+  }
+  .app-dry {
+    background-size: cover;
+    background-position: center;
+  }
+  .app-about {
+    background-size: cover;
+    background-position: center;
+  }
+
+  .app-pricing {
+    background-size: cover;
+    background-position: center;
+  }
+
+  .app-dryCleaning {
+    background-size: cover;
+    background-position: center;
+  }
+
+  .app-ccontact {
+    background-size: cover;
+    background-position: center;
+  }
+  .app-estimator {
+    background-size: cover;
+    background-position: center;
+  } */
+
+  .bg-gradient-to-t {
+    background-image: linear-gradient(to top, white 40%, transparent 100%);
+  }
+  .mx-auto {
+    text-align: left;
+  }
+  .primary-btn,
+  .secondary-btn {
+    font-size: 14px;
+    padding: 8px 12px;
+  }
+}
+
+/* Button animations */
+.primary-btn {
+  transition: all 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.primary-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.secondary-btn {
+  transition: all 0.3s ease, transform 0.2s ease;
+}
+
+.secondary-btn:hover {
+  transform: translateY(-2px);
+  background-color: rgba(29, 78, 216, 0.05);
+}
