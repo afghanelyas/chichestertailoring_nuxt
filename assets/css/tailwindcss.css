@@ -34,11 +34,11 @@
   background-image: url("../images/main.webp");
 }
 
-/* .app-alteration {
-  background-image: url("./../asset/altreation-bg-5.webp");
-} */
+.app-alteration {
+  background-image: url("../images/altreation-bg-5.webp");
+}
 /* .app-dry {
-  background-image: url("./../asset/dry1.webp");
+  background-image: url("../images/dry1.webp");
 } */
 
 /* .app-about {
@@ -47,9 +47,9 @@
 /* .app-pricing {
   background-image: url("./../asset/pricing.webp");
 } */
-/* .app-dryCleaning {
-  background-image: url("./../asset/dryCleaning.webp");
-} */
+.app-dryCleaning {
+  background-image: url("../images/dry1.webp");
+}
 
 /* .app-contact {
   background-image: url("./../asset/contact.webp");
@@ -67,14 +67,16 @@
     background-size: cover;
     background-position: center;
   }
-  /* .app-alteration {
+  .app-alteration {
     background-size: cover;
     background-position: center;
   }
+
   .app-dry {
     background-size: cover;
     background-position: center;
   }
+  /*
   .app-about {
     background-size: cover;
     background-position: center;
