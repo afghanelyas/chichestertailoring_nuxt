@@ -2,11 +2,15 @@
   <div>
     <Header />
     <slot />
-    <Area />
+    <Area v-if="showAreaInLayout" />
     <Footer />
   </div>
 </template>
 
-<script setup></script>
+<script setup>
+const route = useRoute();
 
-<style scoped></style>
+const showAreaInLayout = computed(() => {
+  return route.meta.hideAreaInLayout !== true;
+});
+</script>
