@@ -41,22 +41,22 @@
   background-image: url("../images/dry1.webp");
 } */
 
-/* .app-about {
-  background-image: url("./../asset/about1.webp");
-} */
-/* .app-pricing {
-  background-image: url("./../asset/pricing.webp");
-} */
+.app-about {
+  background-image: url("../images/about1.webp");
+}
+.app-pricing {
+  background-image: url("../images/pricing.webp");
+}
 .app-dryCleaning {
   background-image: url("../images/dry1.webp");
 }
 
-/* .app-contact {
-  background-image: url("./../asset/contact.webp");
-} */
-/* .app-estimator {
-  background-image: url("./../asset/ai.webp");
-} */
+.app-contact {
+  background-image: url("../images/contact.webp");
+}
+.app-estimator {
+  background-image: url("../images/ai.webp");
+}
 @media (max-width: 1023px) {
   /* .app-header {
     background-size: cover;
@@ -76,7 +76,7 @@
     background-size: cover;
     background-position: center;
   }
-  /*
+
   .app-about {
     background-size: cover;
     background-position: center;
@@ -92,14 +92,15 @@
     background-position: center;
   }
 
-  .app-ccontact {
+  .app-contact {
     background-size: cover;
     background-position: center;
   }
+
   .app-estimator {
     background-size: cover;
     background-position: center;
-  } */
+  }
 
   .bg-gradient-to-t {
     background-image: linear-gradient(to top, white 40%, transparent 100%);
