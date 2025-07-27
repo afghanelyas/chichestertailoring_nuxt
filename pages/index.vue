@@ -9,6 +9,9 @@
   </div>
 </template>
 
-<script setup></script>
-
-<style scoped></style>
+<script setup>
+definePageMeta({
+  layout: "default",
+  hideAreaInLayout: true,
+});
+</script>
